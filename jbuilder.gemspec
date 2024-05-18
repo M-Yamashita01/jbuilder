@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'activesupport', '>= 5.0.0'
   s.add_dependency 'actionview', '>= 5.0.0'
+  s.add_dependency 'base64'
 
   if RUBY_ENGINE == 'rbx'
     s.add_development_dependency('racc')
